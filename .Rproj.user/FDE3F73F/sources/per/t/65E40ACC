@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1536526847985.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "854067489",
+    "id" : "65E40ACC",
+    "lastKnownWriteTime" : 1536529546,
+    "last_content_update" : 1536529546391,
+    "path" : "~/Projetos_R/Correlacao_Centralidade_Votos/Scripts_R/Script_Centralidade_Grau.R",
+    "project_path" : "Scripts_R/Script_Centralidade_Grau.R",
+    "properties" : {
+        "cursorPosition" : "14,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
