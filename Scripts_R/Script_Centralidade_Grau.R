@@ -1,16 +1,17 @@
 #Centralidade de Grau
 
-dados.grau <- read.csv("Dados/votos_degree_centrality.csv", header=F, sep=",")
+dados.grau <- read.csv("Dados/votos_governador_degree_centrality.csv", header=F, sep=",")
 attach(dados.grau)
-numero.votos <- dados.grau[,2]
-centralidade.grau <- dados.grau[,3]
 
-cor(numero.votos, centralidade.grau)
+cor(V2, V3, method="spearman")
 
-cor.s = cor.test(numero.votos, centralidade.grau)
+cor.s = cor.test(V2, V3, method="spearman", exact=F)
 
-plot(numero.votos, centralidade.grau)
+cor.s
 
-abline(lm(centralidade.grau ~ numero.votos)
+plot(V2, V3)
+
+abline(lm(V3 ~ V2))
+
        
        
