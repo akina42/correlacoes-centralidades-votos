@@ -28,6 +28,10 @@ correlation_function(
   "Dados/Resultados/Centralidades_Candidatos_Votos/votos_eigenvector_centrality.csv",
   "Resultados/Centralidades/r_votos_eigenvector_centrality.csv")
 
+correlation_function(
+  "Dados/Resultados/Centralidades_Candidatos_Votos/votos_in_degree_centrality.csv",
+  "Resultados/Centralidades/r_votos_in_degree_centrality.csv")
+
 #############################################################
 
 correlation_function(
@@ -45,6 +49,10 @@ correlation_function(
 correlation_function(
   "Dados/Resultados/Centralidades_Governador/votos_governador_eigenvector_centrality.csv",
   "Resultados/Centralidades/r_votos_governador_eigenvector_centrality.csv")
+
+correlation_function(
+  "Dados/Resultados/Centralidades_Governador/votos_governador_in_degree_centrality.csv",
+  "Resultados/Centralidades/r_votos_governador_in_degree_centrality.csv")
 
 #############################################################
 
@@ -64,6 +72,10 @@ correlation_function(
   "Dados/Resultados/Centralidades_Senador/votos_senador_eigenvector_centrality.csv",
   "Resultados/Centralidades/r_votos_senador_eigenvector_centrality.csv")  
 
+correlation_function(
+  "Dados/Resultados/Centralidades_Senador/votos_senador_in_degree_centrality.csv",
+  "Resultados/Centralidades/r_votos_senador_in_degree_centrality.csv")  
+
 #############################################################
 
 correlation_function(
@@ -81,6 +93,10 @@ correlation_function(
 correlation_function(
   "Dados/Resultados/Centralidades_DepFederal/votos_depfederal_eigenvector_centrality.csv",
   "Resultados/Centralidades/r_votos_depfederal_eigenvector_centrality.csv")
+
+correlation_function(
+  "Dados/Resultados/Centralidades_DepFederal/votos_depfederal_in_degree_centrality.csv",
+  "Resultados/Centralidades/r_votos_depfederal_in_degree_centrality.csv")    
 
 #############################################################
 
@@ -100,3 +116,6 @@ correlation_function(
   "Dados/Resultados/Centralidades_DepEstadual/votos_depestadual_eigenvector_centrality.csv",
   "Resultados/Centralidades/r_votos_depestadual_eigenvector_centrality.csv")      
 
+correlation_function(
+  "Dados/Resultados/Centralidades_DepEstadual/votos_depestadual_in_degree_centrality.csv",
+  "Resultados/Centralidades/r_votos_depestadual_in_degree_centrality.csv")
